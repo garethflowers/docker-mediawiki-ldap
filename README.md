@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/garethflowers/docker-mediawiki-ldap.svg?branch=master)](https://travis-ci.org/garethflowers/mediawiki-ldap) [![Version](https://images.microbadger.com/badges/version/garethflowers/mediawiki-ldap.svg)](https://microbadger.com/images/garethflowers/mediawiki-ldap) [![Image Layers](https://images.microbadger.com/badges/image/garethflowers/mediawiki-ldap.svg)](https://microbadger.com/images/garethflowers/mediawiki-ldap) [![Docker Pulls](https://img.shields.io/docker/pulls/garethflowers/mediawiki-ldap.svg)](https://store.docker.com/community/images/garethflowers/mediawiki-ldap)
+[![Build Status](https://travis-ci.org/garethflowers/docker-mediawiki-ldap.svg?branch=master)](https://travis-ci.org/garethflowers/mediawiki-ldap) [![Image Layers](https://images.microbadger.com/badges/image/garethflowers/mediawiki-ldap.svg)](https://microbadger.com/images/garethflowers/mediawiki-ldap) [![Docker Pulls](https://img.shields.io/docker/pulls/garethflowers/mediawiki-ldap.svg)](https://store.docker.com/community/images/garethflowers/mediawiki-ldap)
 
 # MediaWiki with LDAP
 

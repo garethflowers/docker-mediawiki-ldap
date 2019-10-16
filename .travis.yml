@@ -1,0 +1,15 @@
+language: bash
+
+addons:
+  apt:
+    update: true
+
+services:
+  - docker
+
+install:
+  - docker build --tag mediawiki-ldap .
+  - docker run --detach --publish 80:80 mediawiki-ldap
+
+script:
+  - wget --spider http://localhost:80

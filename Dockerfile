@@ -16,6 +16,6 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 	org.label-schema.version=$VERSION
 
 RUN apt-get update \
-	&& apt-get install -y --no-install-recommends libldap2-dev libpq-dev \
+	&& apt-get install --yes --no-install-recommends libldap2-dev libpq-dev \
 	&& docker-php-ext-install ldap pgsql pdo pdo_pgsql \
 	&& rm -rf /var/lib/apt/lists

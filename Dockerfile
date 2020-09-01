@@ -1,9 +1,5 @@
 FROM mediawiki:1.33.1
 
-ARG BUILD_DATE
-ARG VERSION
-ARG VCS_REF
-
 LABEL org.opencontainers.image.authors="Gareth Flowers" \
 	org.opencontainers.image.description="MediaWiki with LDAP Extensions" \
 	org.opencontainers.image.licenses="MIT" \

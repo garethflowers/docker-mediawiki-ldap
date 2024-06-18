@@ -3,6 +3,3 @@ services:
     build: .
     command: php -v
     image: garethflowers/mediawiki-ldap
-networks:
-  default:
-    driver: bridge

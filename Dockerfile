@@ -1,4 +1,4 @@
-FROM mediawiki:1.43.3
+FROM mediawiki:1.44.0
 
 RUN apt-get update \
 	&& apt-get install --yes --no-install-recommends libldap2-dev libpq-dev \
